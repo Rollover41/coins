@@ -17,7 +17,23 @@
   margin-right: 2%;
 }
 
+.thumbnail {
+  margin: 5px;
+  max-width: 65px;
+  display: inline-block;
+}
 
-.card-image {
-  
+.thumbnail img.portrait {
+  width: 65px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.author {
+  background-image: url('img/daily-telegraph-logo.png');
+  background-position: 0 -759px;
+  width: 140px;
+  height: 30px;
+  display: inline-block;
+  font-weight: bold;
 }
