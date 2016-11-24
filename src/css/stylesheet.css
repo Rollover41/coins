@@ -1,0 +1,8 @@
+#story-headline {
+  color: #292929;
+  display: inline-block;
+  font: normal 400 41px/43px "Unit Slab Pro Bold", "Times New Roman", Times, serif;
+  padding: 10px 0 43px;
+  vertical-align: middle;
+  text-align: center;
+}
