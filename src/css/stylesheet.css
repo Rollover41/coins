@@ -5,4 +5,19 @@
   padding: 10px 0 43px;
   vertical-align: middle;
   text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: solid;
+  margin-bottom: 55px;
+  display: block;
+}
+
+#card-grid {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
+.card-image {
+  
 }
