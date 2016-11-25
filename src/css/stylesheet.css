@@ -50,4 +50,11 @@
   display: table;
   position: relative;
   bottom: -15;
+  background-color: #D81B60;
+  border-color: #D81B60
+}
+
+#dropdown-btn:hover {
+  background-color: #F06292;
+  border-color: #F06292;
 }
