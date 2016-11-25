@@ -19,23 +19,26 @@
 
 .thumbnail {
   margin: 5px;
-  max-width: 65px;
+  /*max-width: 65px;*/
   display: inline-block;
 }
 
 .thumbnail img.portrait {
-  width: 65px;
+  width: 100px;
   height: auto;
   border-radius: 5px;
 }
 
 .author {
-  background-image: url('img/daily-telegraph-logo.png');
-  background-position: 0 -759px;
+  /*background-image: url('../../img/daily-telegraph-logo.png');*/
+  /*background-position: 0 -759px;*/
   width: 140px;
   height: 30px;
   display: inline-block;
   font-weight: bold;
+  /*margin-left: 32px;*/
+  vertical-align: top;
+  font-size: 20px;
 }
 
 .card {
@@ -46,6 +49,7 @@
 
 .card-title {
   padding: 0 20px;
+  font-style: italic;
 }
 
 
