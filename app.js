@@ -3,7 +3,7 @@ $( document ).ready(function() {
     // hide all card bottom sections 
     $('.card-bottom-section').hide();
     // slide toggle bottom sections.
-    $('.card-toggle').on('click', function() {
+    $('.dropdown-btn').on('click', function() {
         $el = $(this);
         $el.next().slideToggle();
         // toggle text

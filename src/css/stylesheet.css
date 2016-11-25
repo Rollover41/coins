@@ -49,18 +49,18 @@
 }
 
 
-#dropdown-btn {
+.dropdown-btn {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   display: table;
   position: relative;
-  bottom: -15;
   background-color: #D81B60;
-  border-color: #D81B60
+  border-color: #D81B60;
+  margin-bottom: 15px;
 }
 
-#dropdown-btn:hover {
+.dropdown-btn:hover {
   background-color: #F06292;
   border-color: #F06292;
 }
