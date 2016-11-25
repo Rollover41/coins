@@ -159,4 +159,9 @@ var twitterCards = [
 ];
 
 var factCards = [
+    "100% of people who comment on opinion articles also play the saxophone.",
+    "We should put down our computers and go outside. FOUNDRY IS OVER!",
+    "Pokemon Go is super-addictive.",
+    "Everybody needs to calm down..."
+
 ];
