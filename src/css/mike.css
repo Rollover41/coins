@@ -1,7 +1,6 @@
 .card-bottom-section {
     position: relative;
     display: none;
-    min-height: 200px;
 }
 
 .card-thermometer {
@@ -9,7 +8,6 @@
 }
 .card-thermometer-wrapper {
     width: 100%;
-    padding-right:30px;
     position: relative;
 }
 .card-thermometer-bar {
@@ -37,10 +35,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c4ef5', end
     left: 0;
 }
 
+[data-logo="yes"] .card-thermometer-icon {
+    display: block;
+}
+[data-logo="yes"] .card-thermometer-wrapper {
+    padding-right: 30px;
+}
+
 .card-thermometer-icon {
+    display: none;
     height: 20px;
     width: 20px;
-    display: block;
     position: absolute;
     top: -5px;
     right: 0;
