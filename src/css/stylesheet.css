@@ -1,14 +1,14 @@
 #story-headline {
   color: #292929;
   display: inline-block;
-  font: normal 400 41px/43px "Unit Slab Pro Bold", "Times New Roman", Times, serif;
+  font: normal 400 41px/43px "Vollkorn", "Open Sans", Times, serif;
   padding: 10px 0 43px;
-  vertical-align: middle;
+  /*vertical-align: middle;*/
   text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  border-bottom: solid;
-  margin-bottom: 55px;
+  /*margin-right: auto;*/
+  /*margin-left: auto;*/
+  /*border-bottom: solid;*/
+  /*margin-bottom: 55px;*/
   display: block;
 }
 
@@ -41,7 +41,13 @@
 .card {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
   margin-bottom: 25px;
+  font-family:'Vollkorn', 'Open Sans', serif;
 }
+
+.card-title {
+  padding: 0 20px;
+}
+
 
 #dropdown-btn {
   margin-left: auto;
