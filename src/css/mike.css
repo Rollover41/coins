@@ -1,3 +1,17 @@
+body {
+    background-color: #FE4C4C;
+    color: #232323;
+    padding-top:5%;
+}
+
+#story-headline {
+    max-width: 75%;
+}
+
+.highlight {
+    color: white;
+}
+
 .card-bottom-section {
     position: relative;
     display: none;
@@ -37,6 +51,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c4ef5', end
 
 [data-logo="yes"] .card-thermometer-icon {
     display: block;
+    background-image: url("../../img/fire.jpeg");
 }
 [data-logo="yes"] .card-thermometer-wrapper {
     padding-right: 30px;
@@ -44,12 +59,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c4ef5', end
 
 .card-thermometer-icon {
     display: none;
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
     position: absolute;
-    top: -5px;
-    right: 0;
-    outline: 1px solid red;
+    top: -18px;
+    right: -10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 [data-temp="1"] .card-thermometer-ball {
