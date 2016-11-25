@@ -152,3 +152,11 @@ var news_stories = [
         "dislike_count": ""
     }
 ];
+
+var twitterCards = [
+    "https://twitter.com/chriskkenny/status/555176124594921473",
+    "https://twitter.com/julianburnside/status/699188028250566658"
+];
+
+var factCards = [
+];
