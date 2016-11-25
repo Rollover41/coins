@@ -1,0 +1,79 @@
+.card-bottom-section {
+    position: relative;
+    display: none;
+    min-height: 200px;
+}
+
+.card-thermometer {
+    margin-bottom: 15px;
+}
+.card-thermometer-wrapper {
+    width: 100%;
+    padding-right:30px;
+    position: relative;
+}
+.card-thermometer-bar {
+    position: relative;
+    display: block;
+    height: 10px;
+    width: 100%;
+    display: block;
+    background: rgba(12,78,245,1);
+background: -moz-linear-gradient(left, rgba(12,78,245,1) 0%, rgba(65,52,247,1) 0%, rgba(93,113,240,1) 0%, rgba(231,56,39,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(12,78,245,1)), color-stop(0%, rgba(65,52,247,1)), color-stop(0%, rgba(93,113,240,1)), color-stop(100%, rgba(231,56,39,1)));
+background: -webkit-linear-gradient(left, rgba(12,78,245,1) 0%, rgba(65,52,247,1) 0%, rgba(93,113,240,1) 0%, rgba(231,56,39,1) 100%);
+background: -o-linear-gradient(left, rgba(12,78,245,1) 0%, rgba(65,52,247,1) 0%, rgba(93,113,240,1) 0%, rgba(231,56,39,1) 100%);
+background: -ms-linear-gradient(left, rgba(12,78,245,1) 0%, rgba(65,52,247,1) 0%, rgba(93,113,240,1) 0%, rgba(231,56,39,1) 100%);
+background: linear-gradient(to right, rgba(12,78,245,1) 0%, rgba(65,52,247,1) 0%, rgba(93,113,240,1) 0%, rgba(231,56,39,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c4ef5', endColorstr='#e73827', GradientType=1 );
+}
+
+.card-thermometer-ball {
+    position: absolute;
+    height:20px;
+    width: 4px;
+    background-color: #232323;
+    top:-5px;
+    left: 0;
+}
+
+.card-thermometer-icon {
+    height: 20px;
+    width: 20px;
+    display: block;
+    position: absolute;
+    top: -5px;
+    right: 0;
+    outline: 1px solid red;
+}
+
+[data-temp="1"] .card-thermometer-ball {
+    left:10%;
+}
+[data-temp="2"] .card-thermometer-ball {
+    left:20%;
+}
+[data-temp="3"] .card-thermometer-ball {
+    left:30%;
+}
+[data-temp="4"] .card-thermometer-ball {
+    left:40%;
+}
+[data-temp="5"] .card-thermometer-ball {
+    left:50%;
+}
+[data-temp="6"] .card-thermometer-ball {
+    left:60%;
+}
+[data-temp="7"] .card-thermometer-ball {
+    left:70%;
+}
+[data-temp="8"] .card-thermometer-ball {
+    left:80%;
+}
+[data-temp="9"] .card-thermometer-ball {
+    left:90%;
+}
+[data-temp="10"] .card-thermometer-ball {
+    left:100%;
+}
