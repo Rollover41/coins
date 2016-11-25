@@ -92,7 +92,7 @@ var news_stories = [
     {
         "id": "7",
         "author": "Richard Ackland",
-        "author_image": "./img/author/Richard-Ackland-L.png",
+        "author_image": "./img/author/Richard-Ackland-L.jpg",
         "masthead_logo": "./img/masthead/the_guardian.png",
         "headline": "The defence of free speech is limited for the anti-18C brigade",
         "date_published": "19/08/2016",
